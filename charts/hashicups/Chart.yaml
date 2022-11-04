@@ -25,20 +25,23 @@ appVersion: "1.16.0"
 
 dependencies:
   - name: frontend
-    repository: file://frontend
+    repository: https://kalenarndt.github.io/helm-charts
     version: 0.1.0
   - name: payments
-    repository: file://payments
+    repository: https://kalenarndt.github.io/helm-charts
     version: 0.1.0
   - name: product-api-db
-    repository: file://product-api-db
+    repository: https://kalenarndt.github.io/helm-charts
     version: 0.1.0
   - name: product-api
-    repository: file://product-api
+    repository: https://kalenarndt.github.io/helm-charts
     version: 0.1.0
   - name: public-api
-    repository: file://public-api
+    repository: https://kalenarndt.github.io/helm-charts
     version: 0.1.0
   - name: nginx
-    repository: file://nginx
+    repository: https://kalenarndt.github.io/helm-charts
     version: 0.1.0
+  - name: common
+    repository: https://kalenarndt.github.io/helm-charts
+    version: 0.2.2
