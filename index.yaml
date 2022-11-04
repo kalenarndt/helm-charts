@@ -31,7 +31,7 @@ entries:
     name: frontend
     type: application
     urls:
-    - https://kalenarndt.github.io/helm-charts/hashicups/frontend-0.1.0.tgz
+    - https://kalenarndt.github.io/helm-charts/apps/hashicups/frontend-0.1.0.tgz
     version: 0.1.0
   hashicups:
   - apiVersion: v2
@@ -64,7 +64,7 @@ entries:
     name: hashicups
     type: application
     urls:
-    - https://kalenarndt.github.io/helm-charts/hashicups/hashicups-0.1.0.tgz
+    - https://kalenarndt.github.io/helm-charts/apps/hashicups/hashicups-0.1.0.tgz
     version: 0.1.0
   nginx:
   - apiVersion: v2
@@ -79,7 +79,7 @@ entries:
     name: nginx
     type: application
     urls:
-    - https://kalenarndt.github.io/helm-charts/hashicups/nginx-0.1.0.tgz
+    - https://kalenarndt.github.io/helm-charts/apps/hashicups/nginx-0.1.0.tgz
     version: 0.1.0
   payments:
   - apiVersion: v2
@@ -94,7 +94,7 @@ entries:
     name: payments
     type: application
     urls:
-    - https://kalenarndt.github.io/helm-charts/hashicups/payments-0.1.0.tgz
+    - https://kalenarndt.github.io/helm-charts/apps/hashicups/payments-0.1.0.tgz
     version: 0.1.0
   product-api:
   - apiVersion: v2
@@ -109,7 +109,7 @@ entries:
     name: product-api
     type: application
     urls:
-    - https://kalenarndt.github.io/helm-charts/hashicups/product-api-0.1.1.tgz
+    - https://kalenarndt.github.io/helm-charts/apps/hashicups/product-api-0.1.1.tgz
     version: 0.1.1
   - apiVersion: v2
     appVersion: 1.16.0
@@ -123,7 +123,7 @@ entries:
     name: product-api
     type: application
     urls:
-    - https://kalenarndt.github.io/helm-charts/hashicups/product-api-0.1.0.tgz
+    - https://kalenarndt.github.io/helm-charts/apps/hashicups/product-api-0.1.0.tgz
     version: 0.1.0
   product-api-db:
   - apiVersion: v2
@@ -138,7 +138,7 @@ entries:
     name: product-api-db
     type: application
     urls:
-    - https://kalenarndt.github.io/helm-charts/hashicups/product-api-db-0.1.0.tgz
+    - https://kalenarndt.github.io/helm-charts/apps/hashicups/product-api-db-0.1.0.tgz
     version: 0.1.0
   public-api:
   - apiVersion: v2
@@ -153,6 +153,6 @@ entries:
     name: public-api
     type: application
     urls:
-    - https://kalenarndt.github.io/helm-charts/hashicups/public-api-0.1.0.tgz
+    - https://kalenarndt.github.io/helm-charts/apps/hashicups/public-api-0.1.0.tgz
     version: 0.1.0
 generated: "2022-11-04T13:54:23.383371-06:00"
