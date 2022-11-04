@@ -1,0 +1,23 @@
+frontend:
+  controller:
+    replicas: 1
+
+payments:
+  controller:
+    replicas: 1
+
+product-api-db:
+  controller:
+    replicas: 1
+
+product-api:
+  controller:
+    replicas: 1
+
+nginx:
+  controller:
+    replicas: 1
+
+public-api:
+  controller:
+    replicas: 1

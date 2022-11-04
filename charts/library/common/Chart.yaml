@@ -1,0 +1,13 @@
+apiVersion: v2
+name: common
+description: Function library for Helm charts
+type: library
+version: 0.2.2
+kubeVersion: ">=1.16.0-0"
+keywords:
+  - hashicups
+  - library
+home: https://github.com/kalenarndt/helm-charts/tree/main/charts/apps/hashicups
+maintainers:
+  - name: kalenarndt
+    email: me@kalen.sh
