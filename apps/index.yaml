@@ -3,7 +3,7 @@ entries:
   frontend:
   - apiVersion: v2
     appVersion: 1.16.0
-    created: "2022-11-04T09:51:43.736989-06:00"
+    created: "2022-11-04T13:54:23.385942-06:00"
     dependencies:
     - name: common
       repository: https://kalenarndt.github.io/helm-charts
@@ -18,28 +18,31 @@ entries:
   hashicups:
   - apiVersion: v2
     appVersion: 1.16.0
-    created: "2022-11-04T09:51:43.745986-06:00"
+    created: "2022-11-04T13:54:23.405119-06:00"
     dependencies:
     - name: frontend
-      repository: file://frontend
+      repository: https://kalenarndt.github.io/helm-charts
       version: 0.1.0
     - name: payments
-      repository: file://payments
+      repository: https://kalenarndt.github.io/helm-charts
       version: 0.1.0
     - name: product-api-db
-      repository: file://product-api-db
+      repository: https://kalenarndt.github.io/helm-charts
       version: 0.1.0
     - name: product-api
-      repository: file://product-api
+      repository: https://kalenarndt.github.io/helm-charts
       version: 0.1.0
     - name: public-api
-      repository: file://public-api
+      repository: https://kalenarndt.github.io/helm-charts
       version: 0.1.0
     - name: nginx
-      repository: file://nginx
+      repository: https://kalenarndt.github.io/helm-charts
       version: 0.1.0
+    - name: common
+      repository: https://kalenarndt.github.io/helm-charts
+      version: 0.2.2
     description: A Helm chart for Kubernetes
-    digest: 8e49b477ba7deac49f23f949decd22af98831cbb2a4cbdd8b756a4089349ede7
+    digest: 6db886a4881a52cce43d20740a7d0b7d91b03cb9d43b9d4bceceb56d86d620eb
     name: hashicups
     type: application
     urls:
@@ -48,7 +51,7 @@ entries:
   nginx:
   - apiVersion: v2
     appVersion: 1.16.0
-    created: "2022-11-04T09:51:43.748338-06:00"
+    created: "2022-11-04T13:54:23.407729-06:00"
     dependencies:
     - name: common
       repository: https://kalenarndt.github.io/helm-charts
@@ -63,7 +66,7 @@ entries:
   payments:
   - apiVersion: v2
     appVersion: 1.16.0
-    created: "2022-11-04T09:51:43.750725-06:00"
+    created: "2022-11-04T13:54:23.40995-06:00"
     dependencies:
     - name: common
       repository: https://kalenarndt.github.io/helm-charts
@@ -78,7 +81,21 @@ entries:
   product-api:
   - apiVersion: v2
     appVersion: 1.16.0
-    created: "2022-11-04T09:51:43.753477-06:00"
+    created: "2022-11-04T13:54:23.415455-06:00"
+    dependencies:
+    - name: common
+      repository: https://kalenarndt.github.io/helm-charts
+      version: 0.2.2
+    description: A Helm chart for Kubernetes
+    digest: c0cc7c4f395de51e0576e447bf297f9690f3989125d32a498bed90e53793ad18
+    name: product-api
+    type: application
+    urls:
+    - https://kalenarndt.github.io/helm-charts/hashicups/product-api-0.1.1.tgz
+    version: 0.1.1
+  - apiVersion: v2
+    appVersion: 1.16.0
+    created: "2022-11-04T13:54:23.412509-06:00"
     dependencies:
     - name: common
       repository: https://kalenarndt.github.io/helm-charts
@@ -93,7 +110,7 @@ entries:
   product-api-db:
   - apiVersion: v2
     appVersion: 1.16.0
-    created: "2022-11-04T09:51:43.756116-06:00"
+    created: "2022-11-04T13:54:23.418881-06:00"
     dependencies:
     - name: common
       repository: https://kalenarndt.github.io/helm-charts
@@ -108,7 +125,7 @@ entries:
   public-api:
   - apiVersion: v2
     appVersion: 1.16.0
-    created: "2022-11-04T09:51:43.760252-06:00"
+    created: "2022-11-04T13:54:23.421636-06:00"
     dependencies:
     - name: common
       repository: https://kalenarndt.github.io/helm-charts
@@ -120,4 +137,4 @@ entries:
     urls:
     - https://kalenarndt.github.io/helm-charts/hashicups/public-api-0.1.0.tgz
     version: 0.1.0
-generated: "2022-11-04T09:51:43.734499-06:00"
+generated: "2022-11-04T13:54:23.383371-06:00"
