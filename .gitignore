@@ -1,7 +1,9 @@
 # Compiled Helm chart dependencies
 charts/**/Chart.lock
 charts/**/charts/
-charts/
+charts/library
+charts/hashicups
+
 
 # Testing
 __snapshot__/
