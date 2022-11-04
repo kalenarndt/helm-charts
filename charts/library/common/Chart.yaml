@@ -7,7 +7,7 @@ kubeVersion: ">=1.16.0-0"
 keywords:
   - hashicups
   - library
-home: https://github.com/kalenarndt/helm-charts/tree/main/charts/apps/hashicups
+home: https://github.com/kalenarndt/helm-charts/tree/main/charts/library/common
 maintainers:
   - name: kalenarndt
     email: me@kalen.sh

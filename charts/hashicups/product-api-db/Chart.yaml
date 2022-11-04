@@ -25,5 +25,5 @@ appVersion: "1.16.0"
 
 dependencies:
   - name: common
-    repository: file://../../../library/common
+    repository: https://kalenarndt.github.io/helm-charts
     version: 0.2.2
