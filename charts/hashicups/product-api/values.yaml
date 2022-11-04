@@ -44,7 +44,7 @@ image:
   # -- image repository
   repository: hashicorpdemoapp/product-api
   # -- image tag
-  tag: v0.0.20
+  tag: v0.0.22
   # -- image pull policy
   pullPolicy: IfNotPresent
 
@@ -61,7 +61,6 @@ podAnnotations: {
   prometheus.io/scrape: "true",
   prometheus.io/port: "9102",
   consul.hashicorp.com/connect-inject: "true",
-  consul.hashicorp.com/connect-service-upstreams: "hashicups-product-api-db:5432"
 }
 
 # -- Set labels on the pod

@@ -1,0 +1,11 @@
+{{/* Make sure all variables are set properly */}}
+{{- include "common.values.setup" . }}
+
+{{/* Append the configMap volume to the volumes */}}
+{{- define "consul.annotations" -}}
+consul.hashicorp.com/connect-service-upstreams: {{ .Release.Name }}-product-api-db:5432"
+{{- end -}}
+{{- $_ := set .Values.podAnnotations "consul-annotations" (include "consul.annotations" . | fromYaml) -}}
+
+{{/* Render the templates */}}
+{{ include "common.all" . }}
