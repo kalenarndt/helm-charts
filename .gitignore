@@ -8,3 +8,5 @@ __snapshot__/
 
 # Docs
 _site/
+
+.DS_Store
